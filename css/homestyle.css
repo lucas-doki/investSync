@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: #73FCC3;
+    color: #73FCC3;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.offcanvas-body {
+    background-color: #73FCC3;
+}
+.offcanvas-header
+{
+    background-color: #73FCC3;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    font-weight: bolder;
+    color: white;
+    size: 30px
+
+}
+
+
+.card {
+    margin-top: 5rem;
+    margin-right: 20%;
+    margin-left: 20%;
+
+    width: 60%;
+    height: 20rem;
+    border-radius: 40px;
+}
+.card-text {
+    font-size: 110%;
+}
+
+@media(min-width: 1024px) {
+    .container{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card {
+        margin-top: 4rem;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+}
+
